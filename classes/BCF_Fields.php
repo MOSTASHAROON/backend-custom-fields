@@ -111,4 +111,33 @@ class BCF_Fields {
 
 		return $html;
 	}
+
+	static function select2( array $args ) {
+
+		$default_args = array(
+			'name'     => '',
+			'class'    => '',
+			'multiple' => false,
+			'options'  => array(),
+			'selected' => array(),
+			'id'       => ''
+		);
+
+		$args     = array_merge( $default_args, $args );
+		$multiple = $args['multiple'] ? 'multiple' : '';
+
+		$html = '<select ' . $multiple . ' name="' . $args['name'] . '" id="' . $args['id'] . '" class="' . $args['class'] . '">';
+
+		if ( ! empty( $args['options'] ) ) {
+			foreach ( $args['options'] as $id => $option ) {
+				$selected = in_array( $id, $args['selected'] ) ? 'selected' : '';
+				$html .= '<option ' . $selected . ' value="' . $id . '">' . $option . '</option>';
+			}
+		}
+
+		$html .= '</select>';
+
+
+		return $html;
+	}
 }

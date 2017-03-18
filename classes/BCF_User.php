@@ -96,7 +96,7 @@ class BCF_User extends BCF_Render {
 				$html .= '<tr>';
 				$html .= '<th>' . BCF_Fields::label( esc_html__( 'Profile Form' ), 'bcf_pb_form' ) . '</th>';
 				$html .= '<td>';
-				$html .= BCF_Fields::select( $args );
+				$html .= BCF_Fields::select2( $args );
 				$html .= BCF_Fields::p( esc_html__( 'Backend Custom Fields For Forms Management System couldn\'t know the form that this user use when he/she get register, please select the form then update the profile.', 'bcf' ), 'description' );
 				$html .= '</td>';
 				$html .= '</tr>';
