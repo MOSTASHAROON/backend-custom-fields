@@ -6,13 +6,13 @@ if ( ! defined( 'ABSPATH' ) ) {
   Plugin Name: Backend Custom Fields For Forms Management System
   Plugin URI: http://mostasharoon.org
   Description: An easy way to display the custom fields at the backend.
-  Version: 1.0.1
+  Version: 1.0.2
   Author: Mohammed Thaer
   Author URI: http://mostasharoon.org
   Text Domain: bcf
  */
 
-define( 'BCF_VERSION', '1.0.1' );
+define( 'BCF_VERSION', '1.0.2' );
 
 /* ----------------------------------------------------------------------------------- */
 /* 	Includes required files.

@@ -3,8 +3,8 @@ Contributors: Engr.MTH, MOSTASHAROON
 Donate link: https://mostasharoon.org/buy-us-a-coffee/
 Tags: forms management system, visual builder, custom fields, custom post type, form, forms, mostasharoon, views, admin, advanced, custom, custom field, edit, field, file, image, more fields, Post, repeater, simple fields, text, textarea, type
 Requires at least: 3.5
-Tested up to: 4.2.2
-Stable tag: 1.0.1
+Tested up to: 4.7.3
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ By default only the users that have administrator role can access and manage the
  }`
 
 == Changelog ==
+
+= 1.0.2 =
+* Fix can't attach a form to a user that don't have one.
 
 = 1.0.1 =
 * Fix issue with PHP7.
