@@ -3,7 +3,7 @@ Contributors: Engr.MTH, MOSTASHAROON
 Donate link: https://mostasharoon.org/buy-us-a-coffee/
 Tags: forms management system, visual builder, custom fields, custom post type, form, forms, mostasharoon, views, admin, advanced, custom, custom field, edit, field, file, image, more fields, Post, repeater, simple fields, text, textarea, type
 Requires at least: 3.5
-Tested up to: 4.7.3
+Tested up to: 4.7.5
 Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
